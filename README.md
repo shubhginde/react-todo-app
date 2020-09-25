@@ -1,2 +1,2 @@
 # react-todo-app
-http://www.shubhginde.github.io/react-todo-app
+http://shubhginde.github.io/react-todo-app
