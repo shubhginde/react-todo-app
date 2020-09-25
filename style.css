@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(54, 53, 53);
+    /* background-color: whitesmoke; */
+}
+
+#root{
+   color: white; 
+}
+
+.todo-list{
+    background-color: rgb(54, 53, 53);
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow: 
+                /* The top layer shadow */
+                0 1px 1px  rgba(0, 0, 0, 15),
+                /* The second layer */
+                0 10px 0 -5px #eee,
+                /* The second layer shadow */
+                0 10px 1px -4px rgba(0, 0, 0, 15),
+                /* The third layer */
+                0 20px  0 -10 #eee,
+                /* The third layer shadow */
+                0 2px  1px -9px rgba(0, 0, 0, 15);
+    padding: 30px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: white
+}
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+button{
+    color: white;
+    background-color: rgb(54, 53, 53);
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+input[type=text]{
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
